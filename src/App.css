@@ -1,0 +1,17 @@
+.App {
+    text-align: center;
+    background-color: #f5f7f8;
+  }
+  
+  .App-header {
+    background-color: #ffffff;
+    padding: 10px;
+    color: white;
+  }
+  
+  main {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  

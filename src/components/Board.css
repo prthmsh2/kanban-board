@@ -1,0 +1,45 @@
+.board {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px 20px 20px;
+    gap: 10px;
+  }
+  
+  .column {
+    background-color: #f4f5f7;
+    border-radius: 3px;
+    padding: 0px 10px 10px 10px;
+    width: 20%; /* Adjust as necessary */
+    min-width: 250px;
+  }
+  
+  .column h4 {
+    text-align: left;
+    margin-bottom: 25px;
+    margin-left: 15px;
+  }
+  
+  .group-length{
+    margin-left: 10px;
+  }
+
+  .group-header-priority{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .group-header-priority img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .group-header-priority-logos{
+    align-items: right;
+    float: right;
+    margin-left: 35%;
+  }
+
+  .group-length{
+    color: #94979d;
+  }

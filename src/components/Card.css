@@ -1,0 +1,93 @@
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* margin: 0.8rem; */
+    margin-bottom: 0.7rem;
+    padding: 0.9rem;
+    position: relative;
+    
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-id {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    font-weight:600;
+    color: #333;
+    display: flex;
+    justify-content: right;
+    text-align: left; /* Align text to the left */
+    margin-right:20%; 
+  }
+  
+  .card-tag {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #607d8b;
+    padding: 0.2rem 0.6rem;
+    border-radius: 2px;
+    font-size: 0.85rem;
+  }
+  
+  .card-user-initials {
+    width: 2rem;
+    height: 2rem;
+    background-color: #ff5722;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  .dot-icon{
+    width: 10px;
+    height: 10px;
+    margin-top: 9px;
+  }
+
+  .card-footer{
+    display: flex;
+    padding-top: 10px;
+    align-items: centre;
+  }
+
+  .morehorizontal{
+    padding: 2px 10px;
+  }
+
+  .card-content{
+    display: flex;
+
+  }
+
+  .one{
+    margin-right: 10px;
+    width: 30px; /* Your fixed width */
+    height: 30px; /* Your fixed height */
+    overflow: hidden;
+    
+  }
+
+  .one img {
+    width: 100%; /* Makes the image take up 100% of the container's width */
+    height: 100%; /* Makes the image take up 100% of the container's height */
+    object-fit: contain;
+    /* object-fit: cover;  */
+    border-radius: 30px;
+  }
